@@ -1,0 +1,23 @@
+.navBar{
+display: flex;
+justify-content:space-between;
+}
+
+.logoNetflix{
+    display: flex;
+    justify-content: first baseline;
+}
+
+.icons{
+    display: flex;
+    justify-content: end;
+    margin-right: 300px;
+}
+
+.bell{
+    padding: 30px;
+}
+
+.zoom{
+    padding: 30px;
+}

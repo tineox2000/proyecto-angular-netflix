@@ -1,0 +1,10 @@
+
+<ul class="section">
+    <p>{{Films.section}}</p>
+    <div class="gallery">
+        <li *ngFor="let film of Films.films" >
+            <!-- <p>{{film.title}}</p> -->
+            <img width="300px" src="{{film.image}}" alt="{{film.title}}">
+        </li>
+    </div>
+</ul>
