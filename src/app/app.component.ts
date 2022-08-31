@@ -14,22 +14,28 @@ export class AppComponent {
     films: [
     {
     title: 'Aqui no hay quien viva',
+    imagen: '../assets/images/fotosNumeros/1.png',
     image: '../assets/images/Top10/6-aquinohay.webp'
+    
     },
     {
       title: 'La casa de papel',
+      imagen: '../assets/images/fotosNumeros/2.png',
       image: '../assets/images/Top10/1-papel.webp'
     },
     {
     title: 'Blacklist',
+    imagen: '../assets/images/fotosNumeros/3.png',
     image: '../assets/images/Top10/7-blacklist.webp'
     },
     {
     title: 'Ricos y Mimados',
+    imagen: '../assets/images/fotosNumeros/4.png',
     image: '../assets/images/Top10/8-ricos.webp'
     },
     {
       title: 'Titanes',
+      imagen: '../assets/images/fotosNumeros/5.png',
       image: '../assets/images/Top10/3-titanes.webp'
     }
     ]

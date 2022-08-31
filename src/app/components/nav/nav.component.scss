@@ -1,17 +1,19 @@
 .navBar{
 display: flex;
 justify-content:space-between;
+align-items: center;
+width: 100%;
 }
 
-.logoNetflix{
-    display: flex;
-    justify-content: first baseline;
-}
+// .logoNetflix{
+//     display: flex;
+//     // justify-content: first baseline;
+// }
 
 .icons{
     display: flex;
-    justify-content: end;
-    margin-right: 300px;
+    justify-content: center;
+    padding-right: 300px;
 }
 
 .bell{
@@ -21,3 +23,4 @@ justify-content:space-between;
 .zoom{
     padding: 30px;
 }
+

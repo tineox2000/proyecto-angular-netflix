@@ -1,6 +1,7 @@
 .section{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     color: white;
 
@@ -8,6 +9,7 @@
 
 .gallery{
     display: flex;
+    flex-wrap: wrap;
    
     img{
         margin-right: 5px;

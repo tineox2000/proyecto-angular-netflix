@@ -1,18 +1,29 @@
 .section{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     color: white;
+    margin-left: 43px;
 }
 
 .gallery{
     display: flex;
-
-    img{
-        margin-right: 5px;
-    };
+    flex-wrap: wrap;
 }
 
 ul{
     list-style: none;
+}
+
+.num{
+    margin-right: -56px;
+}
+
+.phoTop{
+padding-left: -200px;
+}
+
+.imgTop{
+    display: flex;
 }
